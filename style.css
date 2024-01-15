@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+ #gradient
+{
+    min-height: 100vh;
+    width:100%;
+    border:1px solid black;
+    font-size:30px;
+    background: rgb(9,4,89);
+    background: linear-gradient(90deg, rgb(4, 0, 62) 8%, rgb(96, 160, 255) 35%, rgb(0, 6, 78) 85%, rgb(17, 0, 56) 100%);
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 10s ease infinite;
+    -moz-animation: Animation 10s ease infinite;
+    animation: Animation 10s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:1.0}
+    50%{background-position:91% 100%}
+    100%{background-position:0.0}
+}
+@-moz-keyframes Animation {
+    0%{background-position:1.0}
+    50%{background-position:91% 100%}
+    100%{background-position:0.0}
+}
+@keyframes Animation { 
+    0%{background-position:1.0}
+    50%{background-position:91% 100%}
+    100%{background-position:0.0}
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+}
+
+
+.wrapper {
+    background: radial-gradient(circle, rgb(3, 70, 170) 50%, rgb(11, 1, 59) 100%);
+   width: 370px;
+   padding: 30px;
+   height: 500px;
+   border-radius: 30px;
+}
+
+.txt {
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.admin-panel {
+    color: black;
+}
+
+
+

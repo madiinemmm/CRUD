@@ -7,6 +7,7 @@ const button = document.getElementById('button');
 const form = document.getElementById('form');
 let bacDataLength = 0;
 
+
 function createRowTable(phone, index) {
    return`
               <tr>
@@ -143,4 +144,7 @@ button && button.addEventListener('click', function(e) {
    } else {
     console.log('Validatsiyadan otmadi');
    }
-});
+});   
+
+
+

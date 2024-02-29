@@ -1,5 +1,6 @@
 const row = document.getElementById('row');
 
+
 function createCard(phone) {
     return`
     <div class="card" style="width: 18rem;">
